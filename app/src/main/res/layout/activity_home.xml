@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.essths.android.HomeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/lightorange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="60sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="40dp"
+            android:text="CLIENTS SUBSCRIBED
+RIGHT NOW"
+            android:textAlignment="center"
+            android:textColor="@color/lightorangedark"
+            android:textSize="30sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/spaceullustration">
+
+        <Button
+
+            android:id="@+id/buttonticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonstyle"
+            android:text="SCAN Tickets" />
+        <Button
+
+            android:id="@+id/buttonsubscriber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonstyle"
+            android:text="SCAN SUBSCRIBERS " />
+    </LinearLayout>
+
+
+</LinearLayout>
